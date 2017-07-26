@@ -1,0 +1,11 @@
+/*content样式开始，头部和尾部样式已记录在base.css*/
+.content{padding:45px 0 0 24px; height:810px;}
+.title{ height:25px; background:url(../img/about_hr.jpg) right no-repeat;}
+.title .span01{font:20px "微软雅黑"; color:#4e5b70;}
+.title .span02{font:italic 16px "Arial"; color:#d2d1d1; margin:0 0 0 10px;}
+.content .left{float:left; width:590px;}
+.content .left dt{font:18px "微软雅黑"; color:#4e5b70; margin:30px 0 0 0;}
+.content .left dt span{color:#99ccff;}
+.content .left dd{font:13px "宋体"; color:#666666; line-height:25px; text-indent:2em;}
+.content .right{float: left;}
+.content .right img{margin:300px 0 0 40px; width:300px; height:260px;}

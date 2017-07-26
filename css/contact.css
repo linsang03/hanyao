@@ -1,0 +1,24 @@
+/*content样式开始，头部和尾部样式已记录在base.css*/
+.content{padding:45px 0 0 24px; height:800px;}
+.title{ height:25px; background:url(../img/pro_hr.jpg) right no-repeat; margin:0 0 10px 0;}
+.title .span01{font:20px "微软雅黑"; color:#4e5b70;}
+.title .span02{font:italic 16px "Arial"; color:#d2d1d1; margin:0 0 0 10px;}
+/*左边*/
+.content .left{float:left; width:235px; height:570px; border-right:solid 1px #e5e5e5;}
+.content .left ul{margin:20px 0 0 0;}
+.content .left ul li{font:14px "微软雅黑"; line-height:40px;}
+.left .map{margin: 40px 0 0 0;}
+.left .map .dituContent{width:220px;height:180px;border:#ccc solid 1px;}
+.map .map_title{font:18px "微软雅黑";}
+.map .map_title span{color:#99ccff;}
+
+/*右边*/
+.content .right{float:left; padding:0 0 0 30px;	width:676px; background:url(../img/contact.jpg) right no-repeat;}
+.right .right_title{font:18px "微软雅黑";}
+.right .right_title span{color:#99ccff;}
+.right .massage{margin:25px 0 0 0;height:500px;}
+.right .massage li{height:35px;line-height: 35px;}
+.right .massage li label{display:block; width:80px; float:left; text-align:right; font:14px "微软雅黑"; color:#999999;}
+.right .massage li input{float: left; width: 210px; height:22px; border:solid 2px #f0f0f0; background:#fff; line-height:22px;}
+.right .massage li textarea{float: left; width:370px; height:110px; border:solid 2px #f0f0f0; background:#fff;}
+.massage .submit {width:180px !important; height:40px !important; background:url(../img/submit.jpg) no-repeat !important; border:0 !important; font:18px "微软雅黑"; color:#fff; margin:20px 0 0 150px !important;}

@@ -1,0 +1,105 @@
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+    color: #333; 
+    background:#f2f2f2;
+}
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none; color: #333; hide-focus: expression(this.hideFocus=true);/* for ie 5+ */outline: none;/* for firefox 1.5 + */}
+a:hover { text-decoration: none; }
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html { overflow-y: scroll; }
+
+/*网页共同样式，头部和底部*/
+a:hover{color:#0099cc;}
+
+.main{margin:0 auto; width:966px;background: #fff; position:relative;}
+/*这是头部的样式*/
+.header{height:65px; }
+.logo{margin:0 0 0 13px;}
+.search{position:absolute; top:18px; right:15px; width:250px; height:32px; background:url(../img/search.jpg) no-repeat;}
+.search_text{float:left; margin-left:30px; border:0; height:30px; width:170px; color:#a0a0a0; background:url(../img/text.jpg) no-repeat; line-height:30px; outline: none;}
+.search_btn{margin:6px 10px;}
+.nav{width:966px; height:56px; background:url(../img/nav.jpg) no-repeat;}
+.nav li{float:left;}
+.nav li a{display:block; height:30px; padding:26px 0 0 0; font:14px "微软雅黑";}
+.nav li .nav01{width:110px; text-align:center;}
+.nav li .nav02{width:125px; text-align:center;}
+.nav li .nav03{width:128px; text-align:center;}
+.nav li .nav04{width:137px; text-align:center;}
+.nav li .nav05{width:125px; text-align:center;}
+.nav li a:hover{color:#0099cc;}
+.nav_first a{color:#0099cc;}
+
+/*这是底部的样式*/
+.footer{margin:0 auto; width:966px; height:110px; text-align:center;}
+.footer .footer_nav{margin:15px 0 0 0;}
+.footer .footer_nav a{font:14px "微软雅黑";}
+.footer .footer_nav span{ margin:0 20px;}
+.footer .footer01{font:13px "宋体"; color:#666666; margin:10px 0;}
+.footer .footer02{font:13px "宋体"; color:#666666;}
+
+/*阴影部分-兼容ie6*/
+.box-shadow{
+box-shadow:0 0 20px #d0d0d0;
+-webkit-box-shadow:0 0 20px #d0d0d0;
+-moz-box-shadow:0 0 20px #d0d0d0;
+-o-box-shadow:0 0 20px #d0d0d0;
+/* For IE 8 */
+-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#d0d0d0')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#d0d0d0');
+}

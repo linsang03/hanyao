@@ -1,0 +1,37 @@
+/*content样式开始，头部和尾部样式已记录在base.css*/
+.content{padding:45px 0 0 24px; height:1160px;}
+.title{ height:25px; background:url(../img/news_hr.jpg) right no-repeat; margin:0 0 10px 0;}
+.title .span01{font:20px "微软雅黑"; color:#4e5b70;}
+.title .span02{font:italic 16px "Arial"; color:#d2d1d1; margin:0 0 0 10px;}
+/*左边盒子*/
+.content .left{float:left; width: 690px; border-right:solid 1px #e5e5e5;}
+.left .news li{width:670px; height:152px; border-bottom:solid 1px #e5e5e5; margin:20px 0;}
+.left .news li img{float:left; width:170px; height:130px; border:solid 1px #cfcfcf; margin:0 20px 0 0;}
+.left .news li span{display:block;}
+.news li .news_title a{font:18px "微软雅黑"; color:#ff3366;}
+.news li .news_title a:hover{color:#0099cc;}
+.news li .news_time{color:#B9ACAC; font:12px "微软雅黑"; margin:10px 0;}
+.news li .news_content{color:#666666; height:70px; font:12px "微软雅黑"; line-height:25px;}
+.left .page{width:170px; margin:0 0 0 auto;}
+.left .page li{float:left; margin:0 10px 0 0;}
+.left .page li span{display:block; border:solid 1px #dddddd; padding:8px 10px; background:#33ccff; color:#fff;}
+.left .page li a{display:block; border:solid 1px #dddddd; padding:8px 10px;}
+.left .page li a:hover{background:#33ccff; color:#fff;}
+
+/*右边盒子*/
+.content .right{float:right; width:250px;}
+.content .right_top{font:18px "微软雅黑"; margin:5px 0 0 15px;}
+.content .right_top span{color:#99ccff;}
+.content .right ul li{width:250px; text-align:center;}
+.content .right ul li img{margin:20px 0; width:160px; height:100px;}
+.content .right ul li span{display:block; margin:0 0 20px 0;}
+.content .right ul li a{color:#666666;}
+.content .right ul li a:hover{color:#0099cc;}
+
+/*新闻内页CSS样式*/
+.left .left_title{display:block; font:25px "微软雅黑"; color:#cc3300; width:690px; text-align:center; margin: 10px 0;}
+.left .left_time{display:block;font:12px "微软也黑"; color:#999999; width:690px; text-align:center; margin:0 0 20px 0;}
+.left .left_content{width:640px; margin:0 30px 0 10px; border-top:solid 1px #e5e5e5; text-indent:2em; font:12px "微软雅黑"; color:#484848; line-height:25px;}
+.left .left_content p{margin:0 0 30px 0;}
+.left .left_content img{width:500px; height:205px; margin:20px 50px;}
+.left .next_page{margin:0 0 0 20px; padding:25px 0 0 50px; clear:both; width:580px; border-top:solid 1px #e1e1e1; font:13px "宋体";}
